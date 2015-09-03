@@ -1318,7 +1318,9 @@
 			var facebook = GetURLParameter("facebook");
 			if(facebook == 'true'){
 				$("#discount").html("<em>Copy this code and enter it on the registration form to get your $100 discount:  VIPFB2015</em>");
-			} else {
+			} else if(facebook == 'false'){
+				$("#discount").html("<em>Copy this code and enter it on the registration form to get your $100 discount:  VIPLinkedIn2015</em>");
+			}else {
 				$("#discount").html("<em>US$100 discount for groups of 10 or larger<br>Student and Faculty Discounts Available<br>Email <a href=\"mailto:mary.price@usu.edu\">mary.price@usu.edu</a> for more information</em>");
 			}
             
