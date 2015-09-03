@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>26th International Shingo Conference</title>
+<!-- TemplateEndEditable -->
+<link href="../2014Conference/2014conference.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="level1Juicy" type="boolean" value="true" -->
+</head>
+
+
+<body>
+<div class="mainPage">
+  <div class="Header">
+    <table width="100%">
+      <tr>
+      <td width="69%">
+      <a href="../2014Conference/index.html"><img src="../2014Conference/images/2014ConferenceLogo.jpg" alt="2014 Shingo Conference Logo" name="headerLogo" width="550" height="150" id="headerLogo" /></a>
+      </td>
+      <td width="31%" align="center" valign="middle" id="Register"><a href="https://www.regonline.com/2014shingoconference">Register</a></td>
+      </tr>
+    </table>
+  </div>
+  <div class="menuBar">
+    <div class="menuMiddle">
+      <table width="100%" border="0" cellpadding="5">
+        <tr class="menuText" >
+          <td><a href="index.html">Overview</a></td>
+          <td><a href="speakers.html">Speakers</a></td>
+          <td><a href="agenda.html">Agenda</a></td>
+          <td><a href="hotel_travel.html">Hotel &amp; Travel</a></td>
+          <td><a href="exhibitor_sponsor.html">Exhibitors &amp; Sponsors</a></td>
+          <td><a href="contact_us.html">Contact Us</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="content"><!-- TemplateBeginIf cond="level1Juicy" -->    
+    <div class="juicy">
+      <table width="100%" height="220" border="0" cellspacing="0" cellpadding="10">
+        <tr>
+          <td><!-- TemplateBeginEditable name="leftPicRegion" --><img src="../2014Conference/images/kalhari_lion.jpg" alt="kalahari" name="leftJuicyPic" width="300" height="200" id="leftJuicyPic" /><!-- TemplateEndEditable --></td>
+          <td>
+            <div id="rightJuicyText">
+              <h1><!-- TemplateBeginEditable name="pageTitleRegion" -->Page Title<!-- TemplateEndEditable --></h1>
+              <!-- TemplateBeginEditable name="pageDescriptionRegion" -->
+              
+              <p>Discription goes here</p>
+              <!-- TemplateEndEditable -->
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+	<!-- TemplateEndIf -->  
+  </div>
+  
+  <div class="mainContent">
+	<!-- TemplateBeginEditable name="contentRegion" -->contentRegion <!-- TemplateEndEditable -->
+  </div>
+  
+  <div class="footer">
+    <hr noshade="noshade" id="footerRule" />
+    <table width="100%" border="0" cellpadding="5">
+      <tr>
+        <td id="footerLeftLogo"><a href="http://huntsman.usu.edu"><img src="../images/huntsmanLogo.png" width="175" height="93" alt="Jon M. Huntsman School of Business logo" /></a></td>
+        <td id="footerCenterLogo"><p><a href="http://twitter.com/ShingoPrize"><img src="../images/twittericon.png" width="48" height="48" alt="Twitter" /></a> <a href="https://www.facebook.com/pages/The-Shingo-Prize-for-Operational-Excellence/99723968388"><img src="../images/facebook.png" width="48" height="48" alt="Facebook" /></a></p>
+        <p class="footerright cssLI shingoConference3_footerright_design">&copy; Copyright  Shingo Institute 2013.  All Rights Reserved. </p></td>
+        <td id="footerRightLogo"><a href="http://shingo.org"><img src="../images/ShingoInstitute_380.jpg" alt="Shingo Institute" name="shingoLogoFooter" width="300" height="115" id="shingoLogoFooter" /></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

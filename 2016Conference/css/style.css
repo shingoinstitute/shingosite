@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,700,900,500|Quattrocento+Sans:400,400italic,700);
+
+/* 28th International Conference */
+
+#splash { 
+	background: url("http://res.cloudinary.com/shingo/image/upload/w_1920/v1439494481/national-mall_rtglsv.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 960px;
+	text-align:center;
+}
+ 	#splash nav {
+		margin: 0 auto;
+		background-color: rgba(223,196,135,.4);
+		padding: 20px;
+		width: 100%;
+		border-radius: 5px;
+	}
+	#splash h1 {
+		font-family: 'Quattrocento Sans';
+    	word-spacing: -.08em;
+    	color: rgb(0,51,89);
+    	font-weight: bolder;	
+	}
+	#splash h2, #splash h3 {
+		font-family: 'Roboto', sans-serif;
+		word-spacing: -.1em;
+	}
+	#splash p {
+		font-size: 1.5em;
+    	font-weight: bolder;
+	}
+
+#splash #box {
+	width: 900px;
+	height: 400px;
+	background: rgba(223,196,135,.4);
+	transition: background 1.25s;
+	padding-top: 40px;
+	top: 200px;
+	position: relative;
+	border-radius: 5px;
+}
+	#box:hover {
+		background: rgba(223,196,135,1);
+	}
+/* show-for-medium-only */
+ 
+#medium-splash {
+ 	background: url("http://res.cloudinary.com/shingo/image/upload/w_1080/v1439494481/national-mall_rtglsv.jpg") no-repeat 75% center fixed;
+    background-size: cover;
+    height: 960px;
+    text-align: center;
+}
+	#medium-splash nav {
+		margin: 0 auto;
+		background-color: rgba(223,196,135,.4);
+		padding: 20px;
+		width: 100%;
+		border-radius: 5px;
+	}#medium-splash h1 {
+		font-family: 'Quattrocento Sans';
+    	word-spacing: -.08em;
+    	color: rgb(0,51,89);
+    	font-weight: bolder;	
+	}
+	#medium-splash h2, #medium-splash h3 {
+		font-family: 'Roboto', sans-serif;
+		word-spacing: -.1em;
+	}
+	#medium-splash p {
+		font-size: 1.5em;
+    	font-weight: bolder;
+	}
+	
+#medium-box {
+	width: 700px;
+    height: 450px;
+    background: rgba(223,196,135,.4);
+    transition: background 1.25s;
+    padding-top: 40px;
+    top: 200px;
+    position: relative;
+    border-radius: 5px;
+}
+
+/* show-for-small */
+ 
+#small-splash {
+	background: url("http://res.cloudinary.com/shingo/image/upload/w_798/v1439494481/national-mall_rtglsv.jpg") no-repeat 75% 75% fixed;
+    background-size: cover;
+    height: 640px;
+    text-align: center;
+ }
+ 	#small-splash nav {
+		margin: 0 auto;
+		background-color: rgba(223,196,135,.4);
+		padding: 10px;
+		width: 100%;
+		border-radius: 5px;
+	}
+	#small-splash #small-box {
+		background: rgba(223,196,135,.4);
+		padding: 10px 0;
+		top: 75px;
+		position: relative;
+		border-radius: 5px;
+	}
+	#small-splash h1 {
+		font-family: 'Quattrocento Sans';
+    	word-spacing: -.08em;
+    	color: rgb(0,51,89);
+    	font-weight: bolder;
+		font-size: 2em;	
+	}
+	#small-splash h2, #splash h3 {
+		font-family: 'Roboto', sans-serif;
+		word-spacing: -.1em;
+	}
+	#small-splash p {
+		font-size:1em;
+		font-weight: bold;
+	}
+	
+/********FOOTER********/
+footer #footer { box-shadow:-1px 0 2px #CCCCCC; padding-top:30px; padding-bottom:20px; background:#FFFFFF; }
+
+footer iframe { width:100%; margin-top: 50px; border:none; }
+
+footer img { margin-top:10px; }
+
+footer p { font-family: "Quattrocento Sans"; }
+
+.quattrocento { 
+    font-family: "Quattrocento Sans";
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.roboto { 
+	font-family: "Roboto"; 
+	font-weight: 300;
+	margin: 0;
+}
+
+.half {
+	float:left;
+}
+	.half a {
+		color: #d04526;
+	}
+.half:last-child {
+	margin-left: 100px;
+}
+
+.left {
+	max-width: 500px;
+	float:left;
+}
+
+.medium-left {
+	max-width: 380px;
+	float:left;
+}
+
+.right {
+	max-width: 380px;
+	float: right;
+	text-align: center;
+}
+
+/* show-for-medium-only */
+.medium-right {
+	max-width: 380px;
+}
+
+.medium-half {
+	margin-left: 200px;
+}
+
+/* show-for-small */
+
+#small-footer .half:last-child {
+	margin-left: 20px;
+}
+
+
+
