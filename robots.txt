@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /Savannahpractice
+Disallow: /amysadler
+Disallow: /maryprice
+Disallow: /cgi-bin
+Disallow: /scope
+Disallow: /scopetest
+Disallow: /survey
+Disallow: /surveytest
+Disallow: /users
+Disallow: /updated-site
