@@ -48,4 +48,4 @@ RewriteRule ^International\/$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$
-RewriteRule ^http\:\/\/shingo\.org\/2015Conference\/"$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
+RewriteRule ^2015Conference\/"$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
