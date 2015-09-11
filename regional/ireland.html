@@ -441,7 +441,7 @@
           <br>
           <div class="text-center large info btn"><a href="https://www.regonline.com/2015_European_Summit" target="_blank">Register</a></div>
           <br><br>
-          <p><em>US$100 discount for groups of 10 or larger</em></p>
+          <p id="discount"></p>
         </div>
       </div>
       <div class="hidden" id="speakers">&nbsp;</div>
@@ -1229,5 +1229,28 @@
 
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+			$(document).ready(function(e) {
+				var facebook = GetURLParameter("facebook");
+				if(facebook == 'true'){
+					$("#discount").html("<em>Copy this code and enter it on the registration form to get your $100 discount:	VIPFB2015</em>");
+				} else if(facebook == 'false'){
+					$("#discount").html("<em>Copy this code and enter it on the registration form to get your $100 discount:	VIPLinkedIn2015</em>");
+				}else {
+					$("#discount").html("<em>US$100 discount for groups of 10 or larger<br>Student and Faculty Discounts Available<br>Email <a href=\"mailto:mary.price@usu.edu\">mary.price@usu.edu</a> for more information</em>");
+				}
+			});
+
+			function GetURLParameter(sParam){
+				var sPageURL = window.location.search.substring(1);
+				var sURLVariables = sPageURL.split('&');
+				for(var i = 0; i < sURLVariables.length; i++){
+					var sParameterName = sURLVariables[i].split('=');
+					if(sParameterName[0] == sParam){
+						return sParameterName[1];
+					}
+				}
+			}
+		</script>
   </body>
 </html>
