@@ -335,6 +335,7 @@ function change_tab (new_index){
 }
 </script>
 
+
 <!-- InstanceEndEditable -->
 
 <footer>
@@ -456,6 +457,29 @@ function change_tab (new_index){
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 	<![endif]-->
+	<script>
+		$(document).ready(function(e) {
+			var anchor = GetURLAnchor();
+			if(anchor === 'discover'){
+				change_tab(1);
+			}
+			else if(anchor === 'enable'){
+				change_tab(2);
+			}
+			else if(anchor === 'improve'){
+				change_tab(3);
+			}
+			else if(anchor === 'align'){
+				change_tab(4);
+			}
+		});
 
+		function GetURLAnchor(){
+			var split = document.URL.split("#")
+			, anchor = split[1];
+
+			return anchor;
+		}
+	</script>
   </body>
 <!-- InstanceEnd --></html>
