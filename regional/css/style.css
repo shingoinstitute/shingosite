@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 
 .gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a { background:none; color:#d04526; font-size:1.05em; }
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
 	.navbar ul li a { height:110px; line-height:105px; }
 	}
 
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 	.navbar ul { background:#FFFFFF; top: 120px; }
 	.navbar ul li .dropdown ul li a { color:#002f56 !important; }
 	  .navbar ul li .dropdown ul li a:hover { color:#d04526 !important; }
-	  
+
 	  .navbar { padding-top:15px; }
 	  .navbar ul li a { height:auto; }
 	  .navbar a.toggle { top: 38%; }
@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 	}
 
 /********FOOTER********/
-#footer { padding:20px; background:#f7f7f7; } 
-  #footer p { line-height:1.3em; } 
+#footer { padding:20px; background:#f7f7f7; }
+  #footer p { line-height:1.3em; }
   #footer .three p { font-size:0.9em; }
     .half { width:49%; margin-right:0.5%; display:inline-block; }
 
@@ -79,15 +79,15 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 #s-registration { padding:20px 20px 40px 20px; background:#f5f5f5; position:relative; }
   #s-registration thead h4 { font-family:"Quattrocento Sans"; }
 
-#s-speakers { padding:20px; background:url('../img/speakers.jpg'); background-size:cover; position:relative; opacity:0.9; }
+#s-speakers { padding:20px; background-size:cover; position:relative; opacity:0.9; }
 #all-speakers { background:white; padding:0; position:relative; }
   #s-speakers h4 { padding-top:10px; padding-bottom:10px; margin-bottom:5px; font-family:"Quattrocento Sans"; }
   #s-speakers h5 { margin-top:10px; }
 	#s-speakers .row.drawer.active { padding:15px; background:none; border:none; box-shadow:none; }
-	
+
 @media only screen and (max-width: 767px) {
 	#s-speakers p > a[class="toggle"] { display:none; }
-}	
+}
 
 #s-speakers .row .three { max-width:300px; margin:auto; border:5px solid #ffffff; box-shadow:0 -2px 1px #888888;  }
 
@@ -97,8 +97,8 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
   #plen .name { background:#ffffff;  }
 .mini { font-size:0.9em; }
 
-#s-travel { background:url('../img/utah_lake.jpg'); background-size:cover; padding:20px; position:relative; } 
-  .accommodations { border:none; } 
+#s-travel { background-size:cover; padding:20px; position:relative; }
+  .accommodations { border:none; }
     .accommodations i { text-decoration:none; }
 	  .accommodations a:hover { color:#407dbe; }
     .accommodations h5 { margin-bottom:7px; color:black; }
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
       .accommodations td { padding:20px; width:33.33%; border:3px solid #002f56; }
 	.accommodations .row .columns { padding:5px; }
   #s-travel .four h4:not(:first-of-type) { margin-top:15px; }
-	
+
 
 #s-sponsors { padding:20px; position:relative; background:#f9f9f9; }
  #benefactors { border-top:5px solid #002f56; border-left:5px solid #002f56; border-right:5px solid #002f56; border-bottom:3px solid #002f56; padding:10px; background:#FFFFFF; }
@@ -118,30 +118,30 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 #s-faq { padding:20px; }
   #s-faq .row:not(:first-of-type) { border-left:3px solid #003; }
   #s-faq dd { margin-bottom:15px; }
-  
+
 #s-text { padding:20px; }
   #s-text p { font-size:1.38em; font-weight:500; word-spacing:-0.1em; text-align:left; }
-  
+
 #contact { padding:30px;  }
-  #contact form { max-width:750px; margin:20px auto; padding:15px;  } 
+  #contact form { max-width:750px; margin:20px auto; padding:15px;  }
   #contact label { margin-bottom:3px; font-family:"Roboto"; }
   #contact form li { margin-bottom:20px; }
   #contact form .btn { background:#CCCCCC; }
 
 /*********Mobile********/
-  
+
 @media only screen and (max-width: 767px) {
 	#s-agenda { padding:5px; position:relative; }
 	   #s-agenda table tr td:first-of-type { width:35%; }
 	   #s-agenda table tr td:last-of-type { text-align:center; width:10%; }
 	   #s-agenda table tr td { font-size: .7em; }
 	   #s-agenda .tabular { font-size: .6em; }
-	   
+
 	#s-speakers p { font-size: .7em; }
 	#s-speakers h5 { font-size: .8em; }
-	
+
 	#s-travel h3 {font-size: 1.8em; }
-}  
+}
 
 @media only screen and (max-width: 340px) {
 	#s-agenda { padding:5px; position:relative; }
@@ -149,10 +149,10 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 	   #s-agenda table tr td:last-of-type { text-align:center; width:10%; }
 	   #s-agenda table tr td { font-size: .6em; }
 	   #s-agenda .tabular { font-size: .5em; }
-	   
+
 	#s-speakers p { font-size: .7em; }
 	#s-speakers h5 { font-size: .8em; }
-	
+
 	#s-travel h3 {font-size: 1.4em; }
 }
 
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 /*Agenda*/
 #ireland #s-agenda .tab-nav li { border-right:2px solid #EAB218; border-top:2px solid #EAB218; border-left:2px solid #EAB218; }
   #ireland #s-agenda .tab-nav { border-bottom:1px solid #EAB218; }
-  
+
 /*Speakers*/
 #ireland #s-speakers h4 { background:#eab218; }
   #ireland #all-speakers { border:2px dotted #eab218; }
@@ -194,14 +194,14 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 /*Agenda*/
 #mexico #s-agenda .tab-nav li { border-right:2px solid #C80C00; border-top:2px solid #C80C00; border-left:2px solid #C80C00; }
   #mexico #s-agenda .tab-nav { border-bottom:1px solid #C80C00; }
-  
+
 /*Registration*/
 #mexico #s-registration thead h4 { color:white; }
 
 /*Speakers*/
 #mexico #s-speakers h4 { background:#C80C00; color:white; }
   #mexico #all-speakers { border:2px dotted #C80C00; }
-  
+
 /*Travel*/
 #mexico #s-travel { background:#F9F9F9; }
   #s-travel .row.drawer.active{ padding: 15px; background: none; border: none; box-shadow:none; }
@@ -213,9 +213,9 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 #mexico footer #contact { background:#fafafa; color:#333333; }
   #contact h4, #contact h6 { color:#333333; }
   #contact form .btn { background:#CCCCCC; color:#333333; }
-  
-  
-  
+
+
+
 /********COSTA RICA********/
 /*The Costa Rica page no longer exists but it will again in the future.*/
 #costa .tab-nav { border-bottom:none; }
