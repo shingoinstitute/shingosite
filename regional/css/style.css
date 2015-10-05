@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 
 #s-agenda { padding:20px; position:relative; }
   #s-agenda table tr td:first-of-type { width:20%; }
-  #s-agenda table tr td:last-of-type { text-align:center; width:40%; }
+  #s-agenda table tr td:last-of-type { text-align:center; width:20%; }
   #s-agenda .tabular { font-family: Verdana, Geneva, sans-serif; font-size: .9em; }
 
 #s-registration { padding:20px 20px 40px 20px; background:#f5f5f5; position:relative; }
