@@ -1,6 +1,7 @@
 RewriteOptions inherit
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
+
 #First line says do not affect blog or users site
 #To diasable more directories, add another pipe | after users
 RewriteRule ^(blog|users|2015Conference|support)($|/) - [L]
@@ -44,3 +45,7 @@ RewriteRule ^shingombainfo\.html$ "http\:\/\/huntsman\.usu\.edu\/shingombawebina
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$
 RewriteRule ^International\.html$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shingo\.org$
+RewriteRule ^education/(.*)$ "http\:\/\/shingo\.org\/education.html" [R=301,L]

@@ -48,6 +48,29 @@
 
 <body>
 
+	<!-- The following script is to redirect old anchor links
+		 to their new pages by extracting the argument from
+	     the old anchor link and using to to redirect to the
+	     new page. -->
+	<script>
+		function checkURL(){
+			var split = document.URL.split("#");
+			var old_path = split[1];
+			if('studytours' == old_path){
+				// Not old style studytours
+				var new_path = '/studytour';
+				window.location = new_path;
+			} else if('executiveed' == old_path){
+				var new_path = '/executive';
+				window.location = new_path;
+			} else if ('conference' == old_path){
+				var new_path = '/International';
+				window.location = new_path;
+			}
+		}
+		checkURL();
+	</script>
+
 <article class="navcontain">
     <nav class="navbar" id="main-nav" gumby-fixed="top">
         <div class="row valign">
