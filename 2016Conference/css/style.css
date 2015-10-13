@@ -1,126 +1,94 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,700,900,500|Quattrocento+Sans:400,400italic,700);
 
+/* General */
+
+header {
+	margin-bottom: -20px;
+	background-color: rgb(223, 196, 134);
+}
+
+section {
+	padding: 10px;
+	margin: 20px 0;
+}
+
+nav {
+	width: 100%;
+	padding: 20px;
+}
+
+nav ul {
+	float: left;
+	list-style: none;
+	width: 500px;
+	display: inline-block;
+	margin:15px;
+}
+
+nav ul > li:not(:last-child) {
+	float: left;
+	width: 100px;
+	border-right: 1px solid black;
+}
+
+nav ul > li > a {
+	color: #640921;
+}
+
+nav ul > li > a:hover {
+	color: #003768;
+}
+
+
 /* 28th International Conference */
 
-#splash { 
-	background: url("http://res.cloudinary.com/shingo/image/upload/w_1920/v1439494481/national-mall_rtglsv.jpg") no-repeat center center fixed;
+.container {
+	max-width: 100%;
+	width: 100%;
+	height:50px;
+}
+
+#home {
+	background: url("http://res.cloudinary.com/shingo/image/upload/w_1920/v1439494481/national-mall_rtglsv.jpg") no-repeat center center;
     background-size: cover;
-    height: 960px;
+		height: 650px;
 	text-align:center;
 }
- 	#splash nav {
-		margin: 0 auto;
-		background-color: rgba(223,196,135,.4);
-		padding: 20px;
-		width: 100%;
-		border-radius: 5px;
-	}
-	#splash h1 {
+	#home h1 {
 		font-family: 'Quattrocento Sans';
     	word-spacing: -.08em;
     	color: rgb(0,51,89);
-    	font-weight: bolder;	
+    	font-weight: bolder;
 	}
-	#splash h2, #splash h3 {
+	#home h2, #home h3 {
 		font-family: 'Roboto', sans-serif;
 		word-spacing: -.1em;
 	}
-	#splash p {
+	#home p {
 		font-size: 1.5em;
     	font-weight: bolder;
 	}
 
-#splash #box {
-	width: 900px;
-	height: 400px;
-	background: rgba(223,196,135,.4);
-	transition: background 1.25s;
-	padding-top: 40px;
-	top: 200px;
-	position: relative;
+#box {
+	background-color: rgba(223, 196, 134, 0.74);
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+#registration table {
+	width: 500px;
+	border: 1px solid #ddd;
 	border-radius: 5px;
+	box-shadow: 3px 3px 3px #ddd;
 }
-	#box:hover {
-		background: rgba(223,196,135,1);
+	#registration table > thead {
+		background-color: #b17c31;
 	}
-/* show-for-medium-only */
- 
-#medium-splash {
- 	background: url("http://res.cloudinary.com/shingo/image/upload/w_1080/v1439494481/national-mall_rtglsv.jpg") no-repeat 75% center fixed;
-    background-size: cover;
-    height: 960px;
-    text-align: center;
-}
-	#medium-splash nav {
-		margin: 0 auto;
-		background-color: rgba(223,196,135,.4);
-		padding: 20px;
-		width: 100%;
-		border-radius: 5px;
-	}#medium-splash h1 {
-		font-family: 'Quattrocento Sans';
-    	word-spacing: -.08em;
-    	color: rgb(0,51,89);
-    	font-weight: bolder;	
+	#registration table td {
+		border-bottom: 1px solid #ddd;
 	}
-	#medium-splash h2, #medium-splash h3 {
-		font-family: 'Roboto', sans-serif;
-		word-spacing: -.1em;
-	}
-	#medium-splash p {
-		font-size: 1.5em;
-    	font-weight: bolder;
-	}
-	
-#medium-box {
-	width: 700px;
-    height: 450px;
-    background: rgba(223,196,135,.4);
-    transition: background 1.25s;
-    padding-top: 40px;
-    top: 200px;
-    position: relative;
-    border-radius: 5px;
-}
 
-/* show-for-small */
- 
-#small-splash {
-	background: url("http://res.cloudinary.com/shingo/image/upload/w_798/v1439494481/national-mall_rtglsv.jpg") no-repeat 75% 75% fixed;
-    background-size: cover;
-    height: 640px;
-    text-align: center;
- }
- 	#small-splash nav {
-		margin: 0 auto;
-		background-color: rgba(223,196,135,.4);
-		padding: 10px;
-		width: 100%;
-		border-radius: 5px;
-	}
-	#small-splash #small-box {
-		background: rgba(223,196,135,.4);
-		padding: 10px 0;
-		top: 75px;
-		position: relative;
-		border-radius: 5px;
-	}
-	#small-splash h1 {
-		font-family: 'Quattrocento Sans';
-    	word-spacing: -.08em;
-    	color: rgb(0,51,89);
-    	font-weight: bolder;
-		font-size: 2em;	
-	}
-	#small-splash h2, #splash h3 {
-		font-family: 'Roboto', sans-serif;
-		word-spacing: -.1em;
-	}
-	#small-splash p {
-		font-size:1em;
-		font-weight: bold;
-	}
-	
+
 /********FOOTER********/
 footer #footer { box-shadow:-1px 0 2px #CCCCCC; padding-top:30px; padding-bottom:20px; background:#FFFFFF; }
 
@@ -130,15 +98,15 @@ footer img { margin-top:10px; }
 
 footer p { font-family: "Quattrocento Sans"; }
 
-.quattrocento { 
+.quattrocento {
     font-family: "Quattrocento Sans";
     font-size: 1.2em;
     font-weight: bolder;
     margin: 0;
 }
 
-.roboto { 
-	font-family: "Roboto"; 
+.roboto {
+	font-family: "Roboto";
 	font-weight: 300;
 	margin: 0;
 }
@@ -154,35 +122,13 @@ footer p { font-family: "Quattrocento Sans"; }
 }
 
 .left {
-	max-width: 500px;
-	float:left;
-}
-
-.medium-left {
-	max-width: 380px;
 	float:left;
 }
 
 .right {
-	max-width: 380px;
 	float: right;
+}
+
+.text-center {
 	text-align: center;
 }
-
-/* show-for-medium-only */
-.medium-right {
-	max-width: 380px;
-}
-
-.medium-half {
-	margin-left: 200px;
-}
-
-/* show-for-small */
-
-#small-footer .half:last-child {
-	margin-left: 20px;
-}
-
-
-
