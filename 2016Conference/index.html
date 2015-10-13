@@ -37,8 +37,9 @@
                 <p class="roboto">Registration and speaker details coming soon!</p>
             </div>
         </div>
+        <div id="agenda"></div>
     </section>
-  	<section id="agenda" class="row">
+  	<section id="s-agenda" class="row">
       <div class="row">
     <div class="six columns centered">
           <h3 class="text-center">AGENDA</h3>
@@ -50,49 +51,48 @@
   </div>
   <br>
   <div class="row">
-      <div class="tabs">
-        <ul class="tab-nav">
-            <li class="active" id="mon"><a href="#">Monday</a></li>
-              <li id="tues"><a href="#">Tuesday</a></li>
-              <li id="wed"><a href="#">Wednesday</a></li>
-              <li id="thurs"><a href="#">Thursday</a></li>
-              <li id="fri"><a href="#">Friday</a></li>
-          </ul>
-          <div class="tab-content active" id="monday">
+    <ul class="tabs" data-tab>
+        <li class="tab-title active"><a href="#day-1">Monday</a></li>
+          <li class="tab-title"><a href="#day-2">Tuesday</a></li>
+          <li class="tab-title"><a href="#day-3">Wednesday</a></li>
+          <li class="tab-title"><a href="#day-4">Thursday</a></li>
+          <li class="tab-title"><a href="#day-5">Friday</a></li>
+      </ul>
+      <div class="tabs-content">
+          <div class="content active" id="day-1">
           <!--All 'detail' modals are at the end of each table-->
             <table class="striped">
                   <thead>
                       <tr>
-                          <th colspan="3">Monday, May 4 - Pre-conference Workshops</th>
+                          <th colspan="3">Monday, April 25 - Pre-conference Workshops</th>
                       </tr>
                   </thead>
                   <tbody>
                       <tr>
                           <td>8:00 am - 5:00 pm</td>
                           <td>DISCOVER EXCELLENCE Workshop</td>
-                          <td><a href="#" class="switch" gumby-trigger="#discover">Workshop Details</a></td>
+                          <td><a href="#" data-reveal-id="discover">Workshop Details</a></td>
                       </tr>
                       <tr>
                           <td>8:00 am - 5:00 pm</td>
                           <td>ENABLE Workshop</td>
-                          <td><a href="#" class="switch" gumby-trigger="#enble">Workshop Details</a></td>
+                          <td><a href="#" data-reveal-id="enable">Workshop Details</a></td>
                       </tr>
                       <tr>
                           <td>8:00 am - 5:00 pm</td>
                           <td>IMPROVE Workshop</td>
-                          <td><a href="#" class="switch" gumby-trigger="#improve">Workshop Details</a></td>
+                          <td><a href="#" data-reveal-id="improve">Workshop Details</a></td>
                       </tr>
                       <tr>
                           <td>8:00 am - 5:00 pm</td>
                           <td>ALIGN Workshop</td>
-                          <td><a href="#" class="switch" gumby-trigger="#align">Workshop Details</a></td>
+                          <td><a href="#" data-reveal-id="align">Workshop Details</a></td>
                       </tr>
                   </tbody>
               </table>
-              <div class="modal" id="discover">
-                <div class="content">
-                    <a class="close switch" gumby-trigger="|.modal"><i class="icon-cancel"></i></a>
-                      <br>
+              <div id="discover" class="reveal-modal" data-reveal aria-labelledby="DISCOVER" aria-hidden="true" role="dialog">
+                <div>
+                    <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
                       <div class="row">
                         <div class="eleven columns centered">
                             <h4>DISCOVER EXCELLENCE</h4>
@@ -108,15 +108,13 @@
                                   </ul>
                               </p>
                               <h6><strong>Workshop Price: $1,595</strong></h6>
-                            <div class="text-center"><p class="btn secondary medium"><a href="#" class="switch" gumby-trigger="|.modal">Close</a></p></div>
                           </div>
                       </div>
                   </div>
               </div>
-              <div class="modal" id="enable">
-                <div class="content">
-                    <a class="close switch" gumby-trigger="|.modal"><i class="icon-cancel"></i></a>
-                      <br>
+              <div id="enable" class="reveal-modal" data-reveal aria-labelledby="ENABLE" aria-hidden="true" role="dialog">
+                <div>
+                    <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
                       <div class="row">
                         <div class="eleven columns centered">
                             <h4>ENABLE</h4>
@@ -129,15 +127,13 @@
                               <p>Cultural enablers make it possible for people within the organization to engage in the transformation journey, progress in their understanding and, ultimately, build a culture of enterprise excellence. Enterprise excellence cannot be achieved through top-down  directives or piecemeal implementation of tools. It requires a widespread commitment throughout the organization to execute according to the principles of enterprise excellence.</p>
 
                               <h6><strong>Workshop Price: $1,595</strong></h6>
-                            <div class="text-center"><p class="btn secondary medium"><a href="#" class="switch" gumby-trigger="|.modal">Close</a></p></div>
                           </div>
                       </div>
                   </div>
               </div>
-              <div class="modal" id="improve">
-                <div class="content">
-                    <a class="close switch" gumby-trigger="|.modal"><i class="icon-cancel"></i></a>
-                      <br>
+              <div id="improve" class="reveal-modal" data-reveal aria-labelledby="IMPROVE" aria-hidden="true" role="dialog">
+                <div>
+                    <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
                       <div class="row">
                         <div class="eleven columns centered">
                             <h4>IMPROVE</h4>
@@ -145,15 +141,13 @@
                               <p>{{{{{NEED COPY}}}}}</p>
 
                               <h6><strong>Workshop Price: $1,595</strong></h6>
-                            <div class="text-center"><p class="btn secondary medium"><a href="#" class="switch" gumby-trigger="|.modal">Close</a></p></div>
-                          </div>
+                            </div>
                       </div>
                   </div>
               </div>
-              <div class="modal" id="align">
-                <div class="content">
-                    <a class="close switch" gumby-trigger="|.modal"><i class="icon-cancel"></i></a>
-                      <br>
+              <div id="align" class="reveal-modal" data-reveal aria-labelledby="ALIGN" aria-hidden="true" role="dialog">
+                <div>
+                      <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
                       <div class="row">
                         <div class="eleven columns centered">
                             <h4>ALIGN</h4>
@@ -161,17 +155,16 @@
                               <p>{{{{NEED COPY}}}}</p>
 
                               <h6><strong>Workshop Price: $1,595</strong></h6>
-                            <div class="text-center"><p class="btn secondary medium"><a href="#" class="switch" gumby-trigger="|.modal">Close</a></p></div>
                           </div>
                       </div>
                   </div>
               </div>
           </div>
-          <div class="tab-content">
-            <table class="striped" id="tuesday">
+          <div class="content" id="day-2">
+            <table class="striped">
                   <thead>
                       <tr>
-                          <th colspan="3">Tuesday, May 5 - Pre-conference Workshops</th>
+                          <th colspan="3">Tuesday, April 26 - Pre-conference Workshops</th>
                       </tr>
                   </thead>
                   <tbody>
@@ -203,11 +196,11 @@
                   </tbody>
               </table>
           </div>
-          <div class="tab-content">
-            <table class="striped" id="wednesday">
+          <div class="content" id="day-3">
+            <table class="striped">
                   <thead>
                       <tr>
-                          <th colspan="3">Wednesday, May 6 - Main Conference</th>
+                          <th colspan="3">Wednesday, April 27 - Main Conference</th>
                       </tr>
                   </thead>
                   <tbody>
@@ -240,7 +233,7 @@
                           <td>10:50 am - 11:50 am</td>
                           <td><strong>Plenary Session</strong><br>
                           Shingo Basics<br>
-                          Manufacturing<<br>
+                          Manufacturing<br>
                           Healthcare<br>
                           Special Topics</td>
                           <td></td>
@@ -264,7 +257,7 @@
                           <td>2:20 pm - 3:20 pm</td>
                           <td><strong>Plenary Session</strong><br>
                           Shingo Basics<br>
-                          Manufacturing<<br>
+                          Manufacturing<br>
                           Healthcare<br>
                           Special Topics</td>
                           <td></td>
@@ -282,11 +275,11 @@
                   </tbody>
               </table>
           </div>
-          <div class="tab-content">
-            <table class="striped" id="thursday">
+          <div class="content" id="day-4">
+            <table class="striped">
                   <thead>
                       <tr>
-                          <th colspan="3">Thursday, May 7 - Main Conference</th>
+                          <th colspan="3">Thursday, April 28 - Main Conference</th>
                       </tr>
                   </thead>
                   <tbody>
@@ -332,7 +325,7 @@
                       <tr>
                           <td>1:00 pm - 1:50 pm</td>
                           <td><strong>Keynote Presentation</strong></td>
-                          <td><</td>
+                          <td></td>
                       </tr>
                       <tr>
                           <td>1:50 pm - 2:20 pm</td>
@@ -343,7 +336,7 @@
                           <td>2:20 pm - 3:20 pm</td>
                           <td><strong>Plenary Session</strong><br>
                           Shingo Basics<br>
-                          Manufacturing<<br>
+                          Manufacturing<br>
                           Healthcare<br>
                           Special Topics</td>
                           <td></td>
@@ -356,7 +349,7 @@
                       <tr>
                           <td>5:00 pm - 6:30 pm</td>
                           <td><strong>Fireside Chat - Ritsuo Shingo</strong></td>
-                          <td><a href="#" class="switch" gumby-trigger="#fireside">Details</a></td>
+                          <td><a href="#" data-reveal-id="fireside">Details</a></td>
                       </tr>
                       <tr>
                           <td>6:30 pm - 9:00 pm</td>
@@ -365,10 +358,9 @@
                       </tr>
                   </tbody>
               </table>
-              <div class="modal" id="fireside">
-                <div class="content">
-                    <a class="close switch" gumby-trigger="|.modal"><i class="icon-cancel"></i></a>
-                      <br>
+              <div id="fireside" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <div>
+                    <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
                       <div class="row">
                         <div class="eleven columns centered">
                             <h4>Fireside Chat</h4>
@@ -377,17 +369,16 @@
                               <p>Former US President Franklin D. Roosevelt led his nation through two of the greatest crises in its history: the Great Depression of the 1930s and World War II. From March 1933 to June 1944 President Roosevelt addressed the American people in some 30 speeches broadcast via radio, speaking on a variety of topics from banking to unemployment to fighting fascism in Europe. Millions of people found comfort and renewed confidence in these speeches, which became known as the "fireside chats."</p>
                               <p>Today, we expand on this concept by bringing in best practitioners and leaders who have a wealth of knowledge on the pursuit of enterprise excellence and how to build a culture of continuous improvement. Spend an evening with these leaders as they share their experience with you in an intimate setting and give you valuable time to ask questions and to network with other like-minded people.</p>
                             <br>
-                              <div class="text-center"><p class="btn secondary medium"><a href="#" class="switch" gumby-trigger="|.modal">Close</a></p></div>
                           </div>
                       </div>
                   </div>
               </div>
           </div>
-          <div class="tab-content">
-            <table class="striped" id="friday">
+          <div class="content" id="day-5">
+            <table class="striped">
                   <thead>
                       <tr>
-                          <th colspan="3">Friday, May 8 - Post-conference Tours</th>
+                          <th colspan="3">Friday, April 29 - Post-conference Tours</th>
                       </tr>
                   </thead>
                   <tbody>
@@ -398,28 +389,29 @@
                       </tr>
                       <tr>
                           <td>7:00 am - 12:30 pm</td>
-                          <td><strong>Site Tour</strong> - OC Tanner &nbsp; <strong>[TOUR FULL]</strong></td>
-                          <td><a href="#" class="switch" gumby-trigger="#octanner">Details</a></td>
+                          <td><strong>Site Tour</strong></td>
+                          <td></td>
                       </tr>
                       <tr>
                           <td>7:00 am - 1:00 pm</td>
-                          <td><strong>Site Tour</strong> - Barnes Aerospace &nbsp; <strong>[TOUR FULL]</strong></td>
-                          <td><a href="#" class="switch" gumby-trigger="#barnes">Details</a></td>
+                          <td><strong>Site Tour</strong></td>
+                          <td></td>
                       </tr>
                       <tr>
                           <td>7:00 am - 1:30 pm</td>
-                          <td><strong>Site Tour</strong> - Autoliv &nbsp; <strong>[TOUR FULL]</strong></td>
-                          <td><a href="#" class="switch" gumby-trigger="#autoliv">Details</a></td>
+                          <td><strong>Site Tour</strong></td>
+                          <td></td>
                       </tr>
                   </tbody>
               </table>
           </div>
+          <div id="registration"></div>
   </div>
-  <div class="row">
+  <!--<div class="row">
     <p><strong>Download the PDF version of the agenda <a href="assets/Schedule May 2015.pdf" target="_blank" title="2015 Shingo Intl Conference Schedule">here.</a></strong></p>
-  </div>
+  </div>-->
     </section>
-    <section id="registration" class="row">
+    <section id="s-registration" class="row">
       <div class="row">
         <div class="six columns centered">
           <h3 class="text-center">REGISTRATION</h3>
@@ -462,7 +454,7 @@
       <iframe src="../join-our-mailing-list.html" width="960" height="610"></iframe>
       <div id="footer">
         <div class="row">
-          <div class="small-six columns left">
+          <div class="small-6 columns left">
             <div class="half">
               <h6 class="roboto">REGISTRATIONS</h6>
               <h6 class="quattrocento"><strong>Megan Maples</strong></h6>
@@ -478,7 +470,7 @@
               <a href="mailto:mary.price@usu.edu">mary.price@usu.edu</a></p>
             </div>
           </div>
-          <div class="small-six columns right">
+          <div class="small-6 columns right">
             <div class="row">
               <a href="http://shingo.org"><img src="http://res.cloudinary.com/shingo/image/upload/c_pad,h_85,w_200/v1386708394/Shingo_Logo_cxhekf.png" alt="Shingo Institute"></a> <a href="http://huntsman.usu.edu"><img src="http://res.cloudinary.com/shingo/image/upload/c_pad,h_65,w_175/c_pad,g_north,h_70,w_175/v1392670458/huntsmanLogo_weqx3o.png" alt="Jon M. Huntsman School of Business"></a>
             </div>

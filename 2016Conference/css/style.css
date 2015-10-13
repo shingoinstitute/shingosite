@@ -3,8 +3,11 @@
 /* General */
 
 header {
-	margin-bottom: -20px;
 	background-color: rgb(223, 196, 134);
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	margin-top: -20px;
 }
 
 section {
@@ -72,21 +75,36 @@ nav ul > li > a:hover {
 #box {
 	background-color: rgba(223, 196, 134, 0.74);
   border-radius: 5px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
-#registration table {
+#s-registration table {
 	width: 500px;
 	border: 1px solid #ddd;
 	border-radius: 5px;
 	box-shadow: 3px 3px 3px #ddd;
 }
-	#registration table > thead {
+	#s-registration table > thead {
 		background-color: #b17c31;
 	}
-	#registration table td {
+	#s-registration table td {
 		border-bottom: 1px solid #ddd;
 	}
+
+table.striped {
+		width: 100%;
+		border: 1px solid #ddd;
+		box-shadow: 3px 3px 3px #ddd;
+	}
+		#s-agenda table.striped > thead {
+			background-color: #407dbe;
+		}
+		#s-agenda table.striped > thead th {
+			color: #FFFEEE;
+		}
+		table.striped td {
+			border-bottom: 1px solid #ddd;
+		}
 
 
 /********FOOTER********/
