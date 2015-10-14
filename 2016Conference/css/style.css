@@ -105,7 +105,27 @@ table.striped {
 		table.striped td {
 			border-bottom: 1px solid #ddd;
 		}
+#all-speakers {
+	border: 1px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  padding: 20px 10px;
+}
 
+#all-speakers .columns {
+	padding:0;
+}
+
+#all-speakers .name {
+	float: left;
+}
+
+#all-speakers .info {
+	color: #b17c31;
+}
+
+#all-speakers .info > i {
+	margin-top: 50%;
+}
 
 /********FOOTER********/
 footer #footer { box-shadow:-1px 0 2px #CCCCCC; padding-top:30px; padding-bottom:20px; background:#FFFFFF; }
