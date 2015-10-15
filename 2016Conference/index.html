@@ -11,12 +11,22 @@
   <body>
     <header>
       <nav>
-        <div class="row">
-          <div class="medium-4 columns left">
+        <div class="text-center">
+          <div class="logo left">
             <a href="http://shingo.org"><img src="http://res.cloudinary.com/shingo/image/upload/c_scale,h_85/v1436391320/Shingo-Mixed-Logos_ztu3bw.png" alt="Shingo International Conference"></a>
           </div>
-          <div class="large-8 columns right text-center">
+          <div id="big-menu" class="centered text-center">
             <ul>
+              <li><a href="#agenda">Agenda</a></li>
+              <li><a href="#registration">Registration</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#travel">Travel</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
+            </ul>
+          </div>
+          <div class="right show-for-medium-down">
+            <a href="#" class="button" data-dropdown="small-menu"><i class="fa fa-bars fa-2x"></i></a>
+            <ul id="small-menu" class="small content f-dropdown" data-dropdown-content>
               <li><a href="#agenda">Agenda</a></li>
               <li><a href="#registration">Registration</a></li>
               <li><a href="#speakers">Speakers</a></li>
@@ -424,7 +434,7 @@
           <table cellspacing="0">
             <thead>
               <tr>
-                <th colspan="2"><h4>Pricing for Main Conference</h4></th>
+                <th colspan="2">Pricing for Main Conference</th>
               </tr>
             </thead>
             <tbody>
@@ -443,24 +453,24 @@
             </tbody>
           </table>
         </div>
-        <!--<div class="five columns text-center">
+        <div class="large-5 columns text-center left">
           <br>
-          <div class="text-center large info btn"><a href="https://www.regonline.com/2015_European_Summit" target="_blank">Register</a></div>
+          <a href="#" class="centered large button radius">Register</a>
           <br><br>
           <p id="discount"></p>
-        </div>-->
+        </div>
       </div>
       <div id="speakers"></div>
     </section>
     <section id="s-speakers" class="row">
       <div id="all-speakers">
         <div>
-          <div class="six columns centered">
+          <div class="text-center">
             <h3 class="text-center">SPEAKERS</h3>
             <hr>
           </div>
         </div>
-        <div class="text-center">
+        <div class="speaker-cat text-center">
           <h4>Keynote Speakers</h4>
         </div>
         <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
@@ -577,7 +587,7 @@
             </div>
           </li>
         </ul>
-        <div class="text-center">
+        <div class="speaker-cat text-center">
           <h4>Plenary Speakers</h4>
         </div>
         <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
@@ -628,7 +638,6 @@
                   <p>Placeholder, Widgets Inc.</p>
                 </div>
               </div>
-
               <div class="about-icon medium-3 columns text-center">
                 <a href="#" class="info" data-dropdown="sil9" aria-controls="sil9" aria-expanded="false"><i class="fa fa-info-circle fa-2x"></i></a>
               </div>
@@ -647,7 +656,6 @@
                   <p>Placeholder, Widgets Inc.</p>
                 </div>
               </div>
-
               <div class="about-icon medium-3 columns text-center">
                 <a href="#" class="info" data-dropdown="sil10" aria-controls="sil10" aria-expanded="false"><i class="fa fa-info-circle fa-2x"></i></a>
               </div>
@@ -666,7 +674,6 @@
                   <p>Placeholder, Widgets Inc.</p>
                 </div>
               </div>
-
               <div class="about-icon medium-3 columns text-center">
                 <a href="#" class="info" data-dropdown="sil11" aria-controls="sil11" aria-expanded="false"><i class="fa fa-info-circle fa-2x"></i></a>
               </div>
@@ -685,7 +692,6 @@
                   <p>Placeholder, Widgets Inc.</p>
                 </div>
               </div>
-
               <div class="about-icon medium-3 columns text-center">
                 <a href="#" class="info" data-dropdown="sil12" aria-controls="sil12" aria-expanded="false"><i class="fa fa-info-circle fa-2x"></i></a>
               </div>
@@ -704,7 +710,6 @@
                   <p>Placeholder, Widgets Inc.</p>
                 </div>
               </div>
-
               <div class="about-icon medium-3 columns text-center">
                 <a href="#" class="info" data-dropdown="sil13" aria-controls="sil13" aria-expanded="false"><i class="fa fa-info-circle fa-2x"></i></a>
               </div>
@@ -723,7 +728,6 @@
                   <p>Placeholder, Widgets Inc.</p>
                 </div>
               </div>
-
               <div class="about-icon medium-3 columns text-center">
                 <a href="#" class="info" data-dropdown="sil14" aria-controls="sil14" aria-expanded="false"><i class="fa fa-info-circle fa-2x"></i></a>
               </div>
@@ -734,6 +738,16 @@
             </div>
           </li>
         </ul>
+      </div>
+      <div id="travel"></div>
+    </section>
+    <section id="s-travel">
+      <div class="row">
+        <div class="text-center">
+          <h3>TRAVEL &amp; ACCOMMODATIONS</h3>
+          <hr>
+          <h4 class="roboto text-center">This year's Shingo Conference will be held in Washington D.C., USA.</h4>
+        </div>
       </div>
     </section>
     <footer>
@@ -756,7 +770,7 @@
               <a href="mailto:mary.price@usu.edu">mary.price@usu.edu</a></p>
             </div>
           </div>
-          <div class="small-6 columns right">
+          <div id="footer-logo" class="small-6 columns right">
             <div class="row">
               <a href="http://shingo.org"><img src="http://res.cloudinary.com/shingo/image/upload/c_pad,h_85,w_200/v1386708394/Shingo_Logo_cxhekf.png" alt="Shingo Institute"></a> <a href="http://huntsman.usu.edu"><img src="http://res.cloudinary.com/shingo/image/upload/c_pad,h_65,w_175/c_pad,g_north,h_70,w_175/v1392670458/huntsmanLogo_weqx3o.png" alt="Jon M. Huntsman School of Business"></a>
             </div>
@@ -772,5 +786,28 @@
     <script>
       $(document).foundation();
     </script>
+    <script>
+			$(document).ready(function(e) {
+				var discount = GetURLParameter("discount");
+				if(discount == 'facebook'){
+					$("#discount").html("<em>Copy this code and enter it on the registration form to get your $100 discount:	VIPFB2015</em>");
+				} else if(discount == 'linkedin'){
+					$("#discount").html("<em>Copy this code and enter it on the registration form to get your $100 discount:	VIPLinkedIn2015</em>");
+				}else {
+					$("#discount").html("<em>US$100 discount for groups of 10 or larger<br>Student and Faculty Discounts Available<br>Email <a href=\"mailto:mary.price@usu.edu\">mary.price@usu.edu</a> for more information</em>");
+				}
+			});
+
+			function GetURLParameter(sParam){
+				var sPageURL = window.location.search.substring(1);
+				var sURLVariables = sPageURL.split('&');
+				for(var i = 0; i < sURLVariables.length; i++){
+					var sParameterName = sURLVariables[i].split('=');
+					if(sParameterName[0] == sParam){
+						return sParameterName[1];
+					}
+				}
+			}
+		</script>
   </body>
 </html>
