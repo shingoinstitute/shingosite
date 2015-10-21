@@ -185,17 +185,17 @@ table.striped {
   font-size: 2em;
 }
 
-#s-travel ul {
+#s-travel ul.table {
 	margin-top: 50px;
 }
 
-#s-travel ul li {
+#s-travel ul.table > li {
 	border: 2px solid #666;
 	border-right: none;
 	padding: 10px;
 }
 
-#s-travel ul li:nth-child(3n){
+#s-travel ul.table > li:nth-child(3n){
 	border-right: 2px solid #666;
 }
 
@@ -280,15 +280,15 @@ nav .button:hover {
 
 @media only screen and (max-width: 767px) {
 
-	#s-travel ul li{
+	#s-travel ul.table li{
 		border-bottom: none;
 	}
 
-	#s-travel ul li:nth-child(n){
+	#s-travel ul.table li:nth-child(n){
 		border-right: 2px solid #666;
 	}
 
-	#s-travel ul li:last-child {
+	#s-travel ul.table li:last-child {
 		border-bottom: 2px solid #666;
 	}
 

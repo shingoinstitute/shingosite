@@ -520,21 +520,26 @@
           <hr>
           <h4 class="roboto text-center">This year's Shingo Conference will be held in Washington D.C., USA.</h4>
         </div>
-        <ul class="small-block-grid-1 medium-block-grid-3" data-equalizer>
+        <ul class="small-block-grid-1 medium-block-grid-3 table" data-equalizer>
           <li data-equalizer-watch>
             <div class="row text-center">
               <h4 class="roboto">Location</h4>
               <div class="large-11 centered text-left">
-                <p>Some stuff about location</p>
+                <p><strong>Renaissance Washington, DC Downtown Hotel</strong></p>
+                <p>999 Ninth Street NW<br>
+                   Washington<br>
+                   District Of Columbia, 20001<br>
+                   USA</p>
               </div>
               <a href="#" data-reveal-id="loca">Map <i class="fa fa-map"></i></a>
             </div>
             <div id="loca" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
               <div>
                   <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
-                    <div class="row">
-                      <img src="http://res.cloudinary.com/shingo/image/upload/c_fill,g_center,w_600/v1445368689/DC-Metro-map-R_x3serc.jpg">
-                    </div>
+                  <h2>Google Maps</h2>
+                  <div class="row text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.9846622979067!2d-77.02556238429754!3d38.90146605430873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b792677ee15f%3A0xe24f42aa2f457d67!2s999+9th+St+NW%2C+Washington%2C+DC+20001!5e0!3m2!1sen!2sus!4v1445468798103" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
                 </div>
             </div>
           </li>
@@ -542,16 +547,71 @@
             <div class="row text-center">
               <h4 class="roboto">Travel</h4>
               <div class="large-11 centered text-left">
-                <p>Some stuff about travel</p>
+                <ul>
+                  <em>From:</em>
+                  <li><a href="#" data-reveal-id="DCA">Ronald Reagan Washington National Airport - DCA</a></li>
+                  <li><a href="#" data-reveal-id="IAD">Washington Dulles International Airport - IAD</a></li>
+                  <li><a href="#" data-reveal-id="BWI">Baltimore/Washington International Thurgood Marshall Airport - BWI</a></li>
+                  <li><a href="http://www.marriott.com/hotels/maps/travel/wasrb-renaissance-washington-dc-downtown-hotel/" target="new">More Info</a></li>
+                </ul>
               </div>
+              <br><br>
               <a href="#" data-reveal-id="metro">Metro Map <i class="fa fa-subway"></i></a>
             </div>
             <div id="metro" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
               <div>
                   <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
-                    <div class="row">
-                      <img src="http://res.cloudinary.com/shingo/image/upload/c_fill,g_center,w_600/v1445368689/DC-Metro-map-R_x3serc.jpg">
-                    </div>
+                  <h2>Metro Map</h2>
+                  <div class="row text-center">
+                    <img src="http://res.cloudinary.com/shingo/image/upload/c_fill,g_center,w_600/v1445368689/DC-Metro-map-R_x3serc.jpg">
+                  </div>
+                </div>
+            </div>
+            <div id="DCA" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+              <div>
+                  <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
+                  <h2>Ronald Reagan Washington National Airport - DCA</h2>
+                  <div class="row">
+                    <p>Airport Phone: +1 703 417 8000</p>
+                    <p>Hotel direction: 5 miles NE</p>
+                    <p><strong>This hotel does not provide shuttle service.</strong></p>
+                    <ul>
+                      <li>Alternate transportation: Subway (Metro): [Yellow line] GALLERY PLACE; fee: 2.5 USD (one way)</li>
+                      <li>Bus service, fee: 10 USD  (one way)</li>
+                      <li>Subway service, fee:  2.5 USD  (one way)</li>
+                      <li>Estimated taxi fare: 19 USD  (one way)</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div id="IAD" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+              <div>
+                  <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
+                  <h2>Washington Dulles International Airport - IAD</h2>
+                  <div class="row">
+                    <p>Airport Phone: +1 703 572 2700</p>
+                    <p>Hotel direction: 29.5 miles SE</p>
+                    <p><strong>This hotel does not provide shuttle service.</strong></p>
+                    <ul>
+                      <li>Alternate transportation: Subway (Metro): GALLERY PLACE-CHINATOWN; fee: 9 USD (one way)</li>
+                      <li>Estimated taxi fare: 55 USD  (one way)</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div id="BWI" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+              <div>
+                  <a class="close-reveal-modal" aria-label="Close">&#215;</a><br>
+                  <h2>Baltimore/Washington International Thurgood Marshall Airport - BWI</h2>
+                  <div class="row">
+                    <p>Airport Phone: +1 410 859 7100</p>
+                    <p>Hotel direction: 34 miles SW</p>
+                    <p>This hotel does not provide shuttle service.</p>
+                    <ul>
+                      <li>Alternate transportation: Amtrak to Union Station; (Metro) [red] to hotel; fee: 35 USD (one way)</li>
+                      <li>Estimated taxi fare: 65 USD  (one way)</li>
+                    </ul>
+                  </div>
                 </div>
             </div>
           </li>
