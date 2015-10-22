@@ -110,11 +110,33 @@ nav {
 #s-agenda ul.tabs {
 	border-bottom: 3px solid #b17c31;
 }
- #s-agenda li.tab-title.active {
-	 border: 2px solid #b17c31;
-	 border-bottom: 0;
-	 bottom: 2px;
- }
+	#s-agenda li.tab-title > a {
+		color: #FFF;
+	}
+	#s-agenda li.tab-title {
+		border: 1px solid #666;
+		border-bottom: 0;
+	}
+	#s-agenda li.tab-title.active {
+		border: 2px solid #b17c31;
+		border-bottom: 0;
+		bottom: 2px;
+	}
+	#s-agenda li.tab-title.pre-conf > a {
+		background-color: #640921;
+	}
+	#s-agenda li.tab-title.main-conf > a {
+		background-color: #003768;
+	}
+	#s-agenda li.tab-title.site-tours > a {
+		background-color: #b17c31;
+	}
+	#s-agenda li.tab-title.active > a{
+		color: #000;
+		background-color: #FFF;
+	}
+
+
 
 table.striped {
 		width: 100%;
@@ -184,6 +206,18 @@ table.striped {
 
 #all-speakers .info > i {
 	margin-top: 50%;
+}
+
+#red {
+	color: #640921;
+}
+
+#blue {
+	color: #003768;
+}
+
+#gold {
+	color: #b17c31;
 }
 
 .speaker-cat {
