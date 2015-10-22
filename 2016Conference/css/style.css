@@ -131,6 +131,19 @@ table.striped {
 			font-size: 1.5em;
 			font-weight: 300;
 		}
+
+		#eats table.striped > thead {
+			background-color: #5b3416;
+		}
+
+		#eats table.striped > thead th {
+			color: #FFF;
+			height: 50px;
+			font-family: "Roboto";
+			font-size: 1.5em;
+			font-weight: 300;
+		}
+
 		table.striped td {
 			border-bottom: 1px solid #ddd;
 			font-size: 1em;
@@ -187,17 +200,33 @@ table.striped {
 
 #s-travel ul.table {
 	margin-top: 50px;
+	border: 1px solid #666;
 }
 
 #s-travel ul.table > li {
-	border: 2px solid #666;
-	border-right: none;
-	padding: 10px;
+	border: 1px solid #666;
+	padding: 5px 20px;
 }
 
-#s-travel ul.table > li:nth-child(3n){
-	border-right: 2px solid #666;
+#s-sponsors ul.table {
+	margin: 50px 0 25px;
+	border: 1px solid #ddd;
+	box-shadow: 5px 5px 5px #ddd;
 }
+
+#s-sponsors ul.table > li {
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	height: 200px;
+	padding:10px;
+}
+
+#s-sponors ul.table p {
+	font-size: 1.1em;
+}
+
+
+
 
 /********FOOTER********/
 footer #footer { box-shadow:-1px 0 2px #CCCCCC; padding-top:30px; padding-bottom:20px; background:#FFFFFF; }
@@ -213,6 +242,10 @@ footer p { font-family: "Quattrocento Sans"; }
     font-size: 1.2em;
     font-weight: bolder;
     margin: 0;
+}
+
+.row {
+	max-width: 1080px;
 }
 
 .roboto {
@@ -280,15 +313,15 @@ nav .button:hover {
 
 @media only screen and (max-width: 767px) {
 
-	#s-travel ul.table li{
+	#s-travel ul.table > li{
 		border-bottom: none;
 	}
 
-	#s-travel ul.table li:nth-child(n){
+	#s-travel ul.table > li:nth-child(n){
 		border-right: 2px solid #666;
 	}
 
-	#s-travel ul.table li:last-child {
+	#s-travel ul.table > li:last-child {
 		border-bottom: 2px solid #666;
 	}
 
