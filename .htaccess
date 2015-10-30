@@ -57,3 +57,7 @@ RewriteRule ^International\.html$ "http\:\/\/shingo\.org\/2016Conference\/" [R=3
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$
 RewriteRule ^education/(.*)$ "http\:\/\/shingo\.org\/education.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^blog\.shingo\.org$
+RewriteRule ^commitment\.html$ "http\:\/\/blog\.shingo\.org\/index\.php\/25\-commitment\-to\-approaching\-problems\-methodically" [R=301,L]
