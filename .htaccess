@@ -44,6 +44,14 @@ RewriteRule ^shingombainfo\.html$ "http\:\/\/huntsman\.usu\.edu\/shingombawebina
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$
+RewriteRule ^shingomba\.html$ "http\:\/\/huntsman\.usu\.edu\/shingombawebinar\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shingo\.org$
+RewriteRule ^shingoMBA\.html$ "http\:\/\/huntsman\.usu\.edu\/shingombawebinar\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shingo\.org$
 RewriteRule ^International\.html$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
