@@ -185,7 +185,8 @@ footer img { margin-top:10px; }
 	max-height: 336px;
 	text-align:center;
 }
-	#summits {	background-color: rgba(101, 8, 32, 1); }
+	/*#summits {	background-color: rgba(101, 8, 32, 1); }*/
+  #international { background-color: rgba(101, 8, 32, 1); }
 	#exEd {	background-color: rgba(0, 51, 89, 1); }
 	#workshops { background-color:rgba(239, 222, 186, 1); }
 	#workshops img { max-width:150px; }
@@ -218,6 +219,11 @@ footer img { margin-top:10px; }
 	min-height: 100%;
 	max-width: 100%;
 	opacity: 0.8;
+}
+
+#international figure {
+  max-width: 100%;
+  min-height: 0;
 }
 
 .grid figure figcaption {
@@ -335,10 +341,10 @@ figure:hover h2 i {
 }
 /*****END OF HOVER ANIMATION CSS******/
 
-#summits h1, h2, h3 { padding-bottom:0px; }
+/*#summits h1, h2, h3 { padding-bottom:0px; }
 	#summits h1:not(.quattrocento) { font-size:1.4em; }
 	.slide h2:not(.header)  { font-size: .98em; color:#FFF; }
-	#summits h3 { font-size:1.1em; }
+	#summits h3 { font-size:1.1em; }*/
 
 .header { font-size: 1.7em; color: white; }
 
@@ -621,3 +627,6 @@ figure:hover h2 i {
 
 #downloads { padding:150px 0; }
   #downloads .btn { margin-bottom:15px; }
+
+
+#international ul.no-left-margin { margin-left: 0 !important;}
