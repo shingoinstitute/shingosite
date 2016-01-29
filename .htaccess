@@ -228,7 +228,7 @@ RewriteCond %{HTTP_HOST} ^shingoinstitute.co.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingoinstitute.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.org.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.in$
-RewriteRule ^International\.html$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
+RewriteRule ^International\.html$ "http\:\/\/shingo\.org\/2016Conference\/index\.html" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$ [OR]
@@ -255,7 +255,7 @@ RewriteCond %{HTTP_HOST} ^shingoinstitute.co.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingoinstitute.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.org.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.in$
-RewriteRule ^2016conference\.html$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
+RewriteRule ^2016Conference\.html$ "http\:\/\/shingo\.org\/2016Conference\/index\.html" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$ [OR]
