@@ -8,7 +8,7 @@ RewriteRule ^(blog|users|2015Conference|support)($|/) - [L]
 #This line allows for users to type pages without the html extension
 
 #Append all requests not ending in .***(*) with .html
-RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{3,4}
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{2,4}
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule ^(.*)$ $1.html
 
@@ -232,7 +232,7 @@ RewriteCond %{HTTP_HOST} ^shingoinstitute.co.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingoinstitute.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.org.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.in$
-RewriteRule ^International\.html$ "http\:\/\/dev\.shingo\.org\/2016Conference\/" [R=301,L]
+RewriteRule ^International\.html$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$ [OR]
@@ -259,7 +259,7 @@ RewriteCond %{HTTP_HOST} ^shingoinstitute.co.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingoinstitute.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.org.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.in$
-RewriteRule ^international\.html$ "http\:\/\/dev\.shingo\.org\/2016Conference\/" [R=301,L]
+RewriteRule ^international\.html$ "http\:\/\/shingo\.org\/2016Conference\/" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$ [OR]
@@ -286,7 +286,7 @@ RewriteCond %{HTTP_HOST} ^shingoinstitute.co.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingoinstitute.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.org.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.in$
-RewriteRule ^2016Conference\.html$ "http\:\/\/dev\.shingo\.org\/2016Conference\/index\.html" [R=301,L]
+RewriteRule ^2016Conference\.html$ "http\:\/\/shingo\.org\/2016Conference\/index\.html" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$ [OR]
