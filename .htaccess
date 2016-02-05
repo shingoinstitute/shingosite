@@ -7,7 +7,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(blog|users|2015Conference|support)($|/) - [L]
 #This line allows for users to type pages without the html extension
 
-#Append all requests not ending in .***(*) with .html
+#Append all requests not ending in .**(**) with .html
 RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{2,4}
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule ^(.*)$ $1.html
@@ -124,7 +124,7 @@ RewriteCond %{HTTP_HOST} ^shingoinstitute.co.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingoinstitute.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.org.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.in$
-RewriteRule ^mexico\.html$ "http\:\/\/shingo\.org\/regional\/mexico\.html" [R=301,L]
+RewriteRule ^mexico\.html$ "http\:\/\/shingo\.org\/regional\/mexico\/" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$ [OR]
@@ -151,7 +151,7 @@ RewriteCond %{HTTP_HOST} ^shingoinstitute.co.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingoinstitute.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.org.in$ [OR]
 RewriteCond %{HTTP_HOST} ^shingo.in$
-RewriteRule ^ireland\.html$ "http\:\/\/shingo\.org\/regional\/ireland\.html" [R=301,L]
+RewriteRule ^ireland\.html$ "http\:\/\/shingo\.org\/regional\/europe\/" [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^shingo\.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.shingo\.org$ [OR]

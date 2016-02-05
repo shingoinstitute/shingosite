@@ -156,51 +156,51 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 	#s-travel h3 {font-size: 1.4em; }
 }
 
-/********IRELAND********/
-#ireland .tab-nav { border-bottom:none; }
-  #ireland .tab-nav li.active { border-left:2px solid #EAB218; border-top:2px solid #EAB218; border-right:2px solid #EAB218; }
+/********europe********/
+#europe .tab-nav { border-bottom:none; }
+  #europe .tab-nav li.active { border-left:2px solid #dfc486; border-top:2px solid #dfc486; border-right:2px solid #dfc486; }
 
-#ireland .navbar { border-bottom:3px solid #EAB218;  }
+#europe .navbar { border-bottom:3px solid #dfc486;  }
 
-#ireland table thead { background-color: #eab218; color: #333333; }
+#europe table thead { background-color: #dfc486; color: #333333; }
 
-#ireland #home { background:url('../img/cork-dark.jpg') no-repeat top center; background-size:cover; }
-  #ireland #home h3 { color: white; }
+#europe #home { background:url('../img/cork-dark.jpg') no-repeat top center; background-size:cover; }
+  #europe #home h3 { color: white; }
 
 /*Agenda*/
-#ireland #s-agenda .tab-nav li { border-right:2px solid #EAB218; border-top:2px solid #EAB218; border-left:2px solid #EAB218; }
-  #ireland #s-agenda .tab-nav { border-bottom:1px solid #EAB218; }
+#europe #s-agenda .tab-nav li { border-right:2px solid #dfc486; border-top:2px solid #dfc486; border-left:2px solid #dfc486; }
+  #europe #s-agenda .tab-nav { border-bottom:1px solid #dfc486; }
 
 /*Speakers*/
-#ireland #s-speakers h4 { background:#eab218; }
-  #ireland #all-speakers { border:2px dotted #eab218; }
+#europe #s-speakers h4 { background:#dfc486; }
+  #europe #all-speakers { border:2px dotted #dfc486; }
 
 /*Footer*/
-#ireland footer #contact { background:url('../img/blarney-castle.jpg') no-repeat top center; background-size:cover; color:black; }
-  #ireland #contact h4, #ireland #contact h6 { color:black; }
+#europe footer #contact { background:url('../img/blarney-castle.jpg') no-repeat top center; background-size:cover; color:black; }
+  #europe #contact h4, #europe #contact h6 { color:black; }
 
 
 /********MEXICO********/
 #mexico .tab-nav { border-bottom:none; }
-  #mexico .tab-nav li.active { border-left:2px solid #C80C00; border-top:2px solid #C80C00; border-right:2px solid #C80C00; }
+  #mexico .tab-nav li.active { border-left:2px solid #640921; border-top:2px solid #640921; border-right:2px solid #640921; }
 
-#mexico .navbar { border-bottom:3px solid #C80C00; }
+#mexico .navbar { border-bottom:3px solid #640921; }
 
-#mexico table thead { background-color:#C80C00; }
+#mexico table thead { background-color:#640921; }
 
 #mexico #home { background:url('../img/queretaro-night.jpg') no-repeat top center; background-size:cover; }
   #mexico #home h3 { color: white; }
 
 /*Agenda*/
-#mexico #s-agenda .tab-nav li { border-right:2px solid #C80C00; border-top:2px solid #C80C00; border-left:2px solid #C80C00; }
-  #mexico #s-agenda .tab-nav { border-bottom:1px solid #C80C00; }
+#mexico #s-agenda .tab-nav li { border-right:2px solid #640921; border-top:2px solid #640921; border-left:2px solid #640921; }
+  #mexico #s-agenda .tab-nav { border-bottom:1px solid #640921; }
 
 /*Registration*/
 #mexico #s-registration thead h4 { color:white; }
 
 /*Speakers*/
-#mexico #s-speakers h4 { background:#C80C00; color:white; }
-  #mexico #all-speakers { border:2px dotted #C80C00; }
+#mexico #s-speakers h4 { background:#640921; color:white; }
+  #mexico #all-speakers { border:2px dotted #640921; }
 
 /*Travel*/
 #mexico #s-travel { background:#F9F9F9; }
