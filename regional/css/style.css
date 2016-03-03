@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
 
 #mexico table thead { background-color:#640921; }
 
-#mexico #home { background:url('../img/queretaro-night.jpg') no-repeat top center; background-size:cover; }
+#mexico #home { background:url('http://res.cloudinary.com/shingo/image/upload/v1457047735/Latin%20Summit/MexicoSummit1.jpg') no-repeat top center; background-size:cover; }
 #mexico #transborder {    background: rgba(132, 132, 132, 0.73);
   border-radius: 15px;
   padding: 20px 0;
