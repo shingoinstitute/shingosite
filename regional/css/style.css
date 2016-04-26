@@ -189,6 +189,38 @@ h1, h2, h3, h4, h5, h6 { font-family:"Muli"; font-weight:300; }
   #europe #contact h4, #europe #contact h6 { color:black; }
 
 
+/********manufacturing********/
+#manufacturing .tab-nav { border-bottom:none; }
+  #manufacturing .tab-nav li.active { border-left:2px solid #dfc486; border-top:2px solid #dfc486; border-right:2px solid #dfc486; }
+
+#manufacturing .navbar { border-bottom:3px solid #dfc486;  }
+
+#manufacturing table thead { background-color: #dfc486; color: #333333; }
+
+#manufacturing #home { background:url("http://res.cloudinary.com/shingo/image/upload/v1461674551/Summits/2016Manufacturing/Web-Banner---Manufacturing.png") no-repeat center center;
+                background-size:cover;
+                height: 750px
+                text-align:center;
+              }
+#manufacturing #transborder {    background: rgba(132, 132, 132, 0.73);
+    border-radius: 15px;
+    padding: 20px 0;
+    max-width: 900px;
+  }
+  #manufacturing #home h3 { color: white;}
+
+/*Agenda*/
+#manufacturing #s-agenda .tab-nav li { border-right:2px solid #dfc486; border-top:2px solid #dfc486; border-left:2px solid #dfc486; }
+  #manufacturing #s-agenda .tab-nav { border-bottom:1px solid #dfc486; }
+
+/*Speakers*/
+#manufacturing #s-speakers h4 { background:#dfc486; }
+  #manufacturing #all-speakers { border:2px dotted #dfc486; }
+
+/*Footer*/
+#manufacturing footer #contact { background:url('../img/blarney-castle.jpg') no-repeat top center; background-size:cover; color:black; }
+  #manufacturing #contact h4, #manufacturing #contact h6 { color:black; }
+
 /********MEXICO********/
 #mexico .tab-nav { border-bottom:none; }
   #mexico .tab-nav li.active { border-left:2px solid #640921; border-top:2px solid #640921; border-right:2px solid #640921; }
